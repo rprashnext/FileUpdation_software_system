@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication7.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Ecommerce website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link href="Content/bootstrap-grid.css" rel="stylesheet" />
+    <link href="Content/bootstrap-grid.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="Content/bootstrap-reboot.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/Site.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head"  runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="w3-container">
+        <div class="w3-bar w3-blue-gray">
+            <a href="#" class="w3-bar-item w3-button">Home</a>
+                <a href="#" class="w3-bar-item w3-button">Offerings & Services</a>
+                    <a href="#" class="w3-bar-item w3-button">Products</a>
+    <div class="w3-dropdown-hover">
+      <button class="w3-button">Biz verticles</button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Electronics</a>
+        <a href="#" class="w3-bar-item w3-button">Industrial Automation</a>
+        <a href="#" class="w3-bar-item w3-button">Medical</a>
+        <a href="#" class="w3-bar-item w3-button">Quality</a>
+        <a href="#" class="w3-bar-item w3-button">Telecome</a>
+        <a href="#" class="w3-bar-item w3-button">IT & E-commerce</a>
+        <a href="#" class="w3-bar-item w3-button">PRODUCT DESIGN AND DEVELOPMENT</a>
+      </div>
+    </div>
+            <a href="#" class="w3-bar-item w3-button">Career</a>
+                <a href="#" class="w3-bar-item w3-button">Contact Us</a>
+  </div>
+</div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
